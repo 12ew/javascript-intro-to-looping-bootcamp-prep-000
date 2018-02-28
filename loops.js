@@ -28,12 +28,12 @@ function whileLoop(number) {
 }
 */
 
-function doWhileLoop() {
+function doWhileLoop(array) {
   array.length > 0 && maybeTrue()
 }
 
 do {
   console.log('false')
-} while (doWhileLoop());
+} while (doWhileLoop(array));
 
 
