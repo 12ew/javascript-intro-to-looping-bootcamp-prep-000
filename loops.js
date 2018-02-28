@@ -14,20 +14,9 @@ function whileLoop(number) {
   let countdown = number;
   
   while (countdown > 0) {
-    console.log(--number);
-  } else if {
-    number === 0;
+    console.log(--countdown);
+  } 
     return "done";
-  }
 }
-
-function whileLoop(n) {
-  let countdown = n;
-
-    while (countdown > 0) {
-      console.log(--countdown)
-    }
-    return "done";
-  }
   
   
