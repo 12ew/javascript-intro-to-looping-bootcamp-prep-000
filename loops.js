@@ -29,13 +29,18 @@ function whileLoop(number) {
 */
 
 function doWhileLoop(array) {
-  let maybeTrue = array;
+ function maybeTrue(){
+   return Math.random() >= 0.5
+ }
   
   array.length > 0 && maybeTrue()
 }
 
 do {
+  array.pop();
   console.log('false')
-} while (doWhileLoop(maybeTrue));
+} while (array.length > -1 && maybeTrue());
+  return array;
+}
 
-
+return Math.random() >= 0.5
