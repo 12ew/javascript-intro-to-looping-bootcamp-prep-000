@@ -9,7 +9,6 @@ function forLoop(array) {
   return array;
 }
 
-
 function whileLoop(number) {
 
     while (number > 0) {
@@ -17,3 +16,15 @@ function whileLoop(number) {
     }
     return "done";
   }
+  
+  /* 
+  function whileLoop(number) {
+  let countdown = number;
+  
+  while (countdown > 0) {
+    console.log(--countdown);
+  } 
+    return "done";
+}
+*/
+
