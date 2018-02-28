@@ -31,26 +31,10 @@ function whileLoop(number) {
 function doWhileLoop(array) {
  function maybeTrue(){
    return Math.random() >= 0.5
- }
-  
-  array.length > 0 && maybeTrue()
 }
 
 do {
   array.pop();
-  console.log('false');
 } while (array.length > -1 && maybeTrue());
   return array;
 }
-
-
-function doWhileLoop(array) {
-+  function maybeTrue() {
-+    return Math.random() >= 0.5
-+  }
-+
-+  do {
-+    array.pop();
-+  } while (array.length > -1 && maybeTrue());
-+    return array;
-+}
