@@ -28,3 +28,8 @@ function whileLoop(number) {
 }
 */
 
+function doWhileLoop() {
+  
+}
+
+
