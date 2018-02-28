@@ -38,9 +38,7 @@ function doWhileLoop(array) {
 
 do {
   array.pop();
-  console.log('false')
+  console.log('false');
 } while (array.length > -1 && maybeTrue());
   return array;
 }
-
-return Math.random() >= 0.5
