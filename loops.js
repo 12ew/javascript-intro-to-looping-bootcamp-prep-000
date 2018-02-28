@@ -29,7 +29,9 @@ function whileLoop(number) {
 */
 
 function doWhileLoop(array) {
-  array.length > 0 && doWhileLoop("")
+  let maybeTrue = array;
+  
+  array.length > 0 && maybeTrue()
 }
 
 do {
