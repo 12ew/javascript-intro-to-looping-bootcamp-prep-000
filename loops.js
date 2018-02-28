@@ -36,6 +36,6 @@ function doWhileLoop(array) {
 
 do {
   console.log('false')
-} while (doWhileLoop(array));
+} while (doWhileLoop(maybeTrue));
 
 
