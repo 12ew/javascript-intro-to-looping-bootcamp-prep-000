@@ -29,7 +29,11 @@ function whileLoop(number) {
 */
 
 function doWhileLoop() {
-  
+  array.length > 0 && maybeTrue()
 }
+
+do {
+  console.log('false')
+} while (doWhileLoop());
 
 
